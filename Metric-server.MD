@@ -7,7 +7,8 @@ It collects metrics like CPU, memory or Disk IO consumption for containers or no
 
 ## Clone Metric-server helm chart on K8 Master
 ```sh
-git clone https://github.com/mnforba/metric-server.git
+git clone https://github.com/mnforba/metric-server.git OR 
+use: kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/high-availability.yaml
 ```
 
 ## Create Metric Server
